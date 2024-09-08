@@ -17,8 +17,8 @@ jobs:
 
       - name: Get latest changes
         run: |
-          git fetch origin develop:develop
-          git reset --hard develop
+          git fetch origin master:master
+          git reset --hard master
 
       - name: Extrair dados do commit
         uses: rlespinasse/git-commit-data-action@v1.x
@@ -30,7 +30,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}>
           author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}>
-          title: 'PR aberto automaticamente de Develop para Main'
+          title: 'PR aberto automaticamente de master para Main'
           body: 'Este PR foi criado automaticamente.'
-          branch: pr-develop-to-main
+          branch: pr-master-to-main
           delete-branch: true

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mercadolivro.iml" filepath="$PROJECT_DIR$/.idea/mercadolivro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kotlin-Spring.iml" filepath="$PROJECT_DIR$/.idea/kotlin-Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mercadolivro/mercadolivro.iml" filepath="$PROJECT_DIR$/mercadolivro/mercadolivro.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,5 @@
 package com.mercadolivro.service
 
-import com.fasterxml.jackson.databind.util.ExceptionUtil
 import com.mercadolivro.model.CustomerModel
 import com.mercadolivro.repository.CustomerRepository
 import org.springframework.stereotype.Service

@@ -6,8 +6,7 @@ import org.springframework.stereotype.Service
 
 @Service
 class CustomerService(
-    private val customerRepository: CustomerRepository,
-    repository: CustomerRepository
+    private val customerRepository: CustomerRepository
 )  {
 
 

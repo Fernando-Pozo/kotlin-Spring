@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS book (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
     price decimal(10,2) NOT NULL,
     status varchar(255) NOT NULL,
     customer_id int not null,

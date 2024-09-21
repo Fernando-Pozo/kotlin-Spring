@@ -14,3 +14,6 @@ spring:
   flyway:
     locations: classpath:db/migration
     baselineOnMigrate: true
+
+  jackson:
+    default-property-inclusion: non_null

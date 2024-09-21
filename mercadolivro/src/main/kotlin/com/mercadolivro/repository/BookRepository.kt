@@ -12,5 +12,4 @@ interface BookRepository : JpaRepository<BookModel, Int> {
     fun findByStatus(status: BookStatus, pageable: Pageable): Page<BookModel>
     fun findByCustomer(customer: CustomerModel): MutableList<BookModel>
 
-//    fun findAll(pageable: Pageable): Page<BookModel>
 }
